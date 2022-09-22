@@ -3,3 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff0057, #2196f3);
+  font-family: monospace;
+}
+h3 {
+}
