@@ -25,7 +25,22 @@ h3 span {
   padding: 0 5px;
   transition: 0.5s;
 }
-h2 span:hover {
+h3 span:hover {
   filter: blur(0px);
   transition: 0s;
+}
+h3 span i {
+  position: absolute;
+  inset: 0;
+  background: red;
+}
+h3 span:hover i::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 8px;
+  background-color: #fff;
+  box-shadow: 0 53px #fff, 36px 53px #fff, 36px 0px #fff;
 }
